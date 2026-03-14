@@ -1,6 +1,7 @@
 FROM ubuntu:latest
 
-
+# Set working directory
+WORKDIR /flames
 
 # Copy the files from the host file system to the image file system
 COPY . /flames
